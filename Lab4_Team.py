@@ -5,16 +5,6 @@ C++ — це мова програмування загального призн
 Завдяки концепціям, таким як класи, спадкування та поліморфізм, C++ дозволяє створювати складні програми з можливістю повторного використання коду. 
 Хоча синтаксис може бути складнішим, ніж у деяких сучасних мов, C++ забезпечує високий рівень контролю та ефективності.
 """
-#Кислий Олександр(lower(),count(),len(split()),видалення приголосних)
-low=text.lower() #Перетворення всього тексту на нижній регістр
-count=text.count('C++') #Рахуя к-ть слів "С++"
-l=len(text.split()) #Кількість слів в рядку
-remove_consonants = vowels_removed = "".join([char for char in text if char not in "BCDFGHJKLMNPQRTVWXZbcdfghjklmnpqrstvwxzБВГДЖЗКЛМНПРСТФХЦЧШЩбвгґджзклмнпрстфхцчшщ"]) #Видалення приголосних
-
-print("Текст після перетворення всього на нижній регістр: ",low)
-print("Кількість слів С++: ",count)
-print("Кількість слів в рядку: ",l)
-print("Видалення приголосних: ",remove_consonants)
 
 # Марюха Дар'я (lower(), rstrip(), len())
 length=len(text) # Довжина рядка
@@ -48,3 +38,14 @@ text_length = len(capitalized_text)
 print("Чи закінчується текст на 'комп'ютерні науки.':", ends_with_efficiency)
 print("Текст з великої літери:\n", capitalized_text)
 print("Кількість символів у тексті:", text_length)
+
+#Кислий Олександр(lower(),count(),len(split()),видалення приголосних)
+low=text.lower() #Перетворення всього тексту на нижній регістр
+count=text.count('C++') #Рахуя к-ть слів "С++"
+l=len(text.split()) #Кількість слів в рядку
+remove_consonants = vowels_removed = "".join([char for char in text if char not in "BCDFGHJKLMNPQRTVWXZbcdfghjklmnpqrstvwxzБВГДЖЗКЛМНПРСТФХЦЧШЩбвгґджзклмнпрстфхцчшщ"]) #Видалення приголосних
+
+print("Текст після перетворення всього на нижній регістр: ",low)
+print("Кількість слів С++: ",count)
+print("Кількість слів в рядку: ",l)
+print("Видалення приголосних: ",remove_consonants)
