@@ -24,3 +24,17 @@ print("Чи починається текст із заданого слова '
 
 a = text.replace("C++", "плюси")#Заміна одного слова на інше
 print("Текст після заміни слів 'С++' на 'плюси': ",a)
+
+# Лопатка Артем (endswith (), capitalize(), len())
+# Перевіряємо, чи закінчується текст на слово "комп'ютерні науки."
+ends_with_efficiency = text.endswith("комп'ютерні науки.")
+
+# Робимо першу літеру тексту великою
+capitalized_text = text.capitalize()
+
+# Підраховуємо кількість символів у тексті
+text_length = len(capitalized_text)
+
+print("Чи закінчується текст на 'комп'ютерні науки.':", ends_with_efficiency)
+print("Текст з великої літери:\n", capitalized_text)
+print("Кількість символів у тексті:", text_length)
