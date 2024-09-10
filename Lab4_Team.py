@@ -6,7 +6,7 @@ C++ — це мова програмування загального призн
 Хоча синтаксис може бути складнішим, ніж у деяких сучасних мов, C++ забезпечує високий рівень контролю та ефективності.
 """
 
-# Марюха Дар'я (lower(), rstrip(), len())
+# Марюха Дар'я (len(), lower(), rstrip())
 length=len(text) # Довжина рядка
 low = text.lower()  # Перетворення всього тексту на нижній регістр
 enddel = text.rstrip()  # Видалення пробілів в кінці рядка
@@ -40,12 +40,10 @@ print("Текст з великої літери:\n", capitalized_text)
 print("Кількість символів у тексті:", text_length)
 
 #Кислий Олександр(lower(),count(),len(split()),vowels_removed="".join([]))
-low=text.lower() #Перетворення всього тексту на нижній регістр
 count=text.count('C++') #Рахуя к-ть слів "С++"
 l=len(text.split()) #Кількість слів в рядку
 remove_consonants = vowels_removed = "".join([char for char in text if char not in "BCDFGHJKLMNPQRTVWXZbcdfghjklmnpqrstvwxzБВГДЖЗКЛМНПРСТФХЦЧШЩбвгґджзклмнпрстфхцчшщ"]) #Видалення приголосних
 
-print("Текст після перетворення всього на нижній регістр: ",low)
 print("Кількість слів С++: ",count)
 print("Кількість слів в рядку: ",l)
 print("Видалення приголосних: ",remove_consonants)
