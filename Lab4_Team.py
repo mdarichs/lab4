@@ -39,7 +39,7 @@ print("Чи закінчується текст на 'комп'ютерні на
 print("Текст з великої літери:\n", capitalized_text)
 print("Кількість символів у тексті:", text_length)
 
-#Кислий Олександр(lower(),count(),len(split()),видалення приголосних)
+#Кислий Олександр(lower(),count(),len(split()),vowels_removed="".join([]))
 low=text.lower() #Перетворення всього тексту на нижній регістр
 count=text.count('C++') #Рахуя к-ть слів "С++"
 l=len(text.split()) #Кількість слів в рядку
