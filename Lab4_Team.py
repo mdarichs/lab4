@@ -7,7 +7,7 @@ C++ — це мова програмування загального призн
 """
 
 # Марюха Дар'я (len(), lower(), rstrip())
-length=len(text) # Довжина рядка
+length=len(text) # Кількість символів
 low = text.lower()  # Перетворення всього тексту на нижній регістр
 enddel = text.rstrip()  # Видалення пробілів в кінці рядка
 
@@ -39,7 +39,7 @@ print("Чи закінчується текст на 'комп'ютерні на
 print("Текст з великої літери:\n", capitalized_text)
 print("Кількість символів у тексті:", text_length)
 
-#Кислий Олександр(lower(),count(),len(split()),vowels_removed="".join([]))
+#Кислий Олександр(count(),len(split()),vowels_removed="".join([]))
 count=text.count('C++') #Рахуя к-ть слів "С++"
 l=len(text.split()) #Кількість слів в рядку
 remove_consonants = vowels_removed = "".join([char for char in text if char not in "BCDFGHJKLMNPQRTVWXZbcdfghjklmnpqrstvwxzБВГДЖЗКЛМНПРСТФХЦЧШЩбвгґджзклмнпрстфхцчшщ"]) #Видалення приголосних
