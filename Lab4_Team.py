@@ -46,3 +46,18 @@ remove_consonants = vowels_removed = "".join([char for char in text if char not 
 print("Кількість слів С++: ",count)
 print("Кількість слів в рядку: ",l)
 print("Видалення приголосних: ",remove_consonants)
+
+# Половинка Софія (isdigit(), isdigit(), startswith())
+# Перевірка чи містить рядок лише цифри
+audit = text.isdigit()
+
+# Розбивання тексту за пробілами
+change = text.split()
+
+# Перевірка, чи починається рядок на "C++"
+starts_with_cpp = text.startswith("C++")
+
+print("Чи складається рядок з цифр:\n", audit)
+print("Текст після розбиття по пробілам:\n", change)
+print("Чи починається текст з 'C++':\n", starts_with_cpp)
+
